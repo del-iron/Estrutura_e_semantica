@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/* Estilizando o cabeçalho */
+header{
+    background-color: rgb(0, 0, 0);   /* Cor de fundo escura */
+    color: aliceblue;                 /*Cor do Texto*/
+    padding: 20px;                      /*Espaçamento Interno*/
+    text-align: center;                 /* Alinha o texto no centro */
+}
+header h1{
+    font-size: 2.5em;    /* Tamanho maior para o título */
+    margin: 0;          /* Remove a margem padrão */
+}
+
+nav ul{
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0;        /* Remove o espaçamento padrão da lista */
+    text-align: left; /*Alinhamneto a esqueda*/
+}
+
+nav a{
+    color: white; /*Cor dos links*/
+    text-decoration: none; /*removendo o sublinhado*/
+}
+nav a :hover{
+    text-decoration: underline;  /*Sublinhe o link ao passar o mouse*/
+}
+
+
+/* Estilizando o conteúdo principal */
+main{
+    padding: 20px; /* Espaçamento interno no conteúdo principal */
+}
+section{
+    margin-bottom: 30px;
+}
+section h2{
+    color: #333; /* Cor para os subtítulos */
+    font-size: 2em; /* Aumenta o tamanho da fonte dos subtítulos */
+}
+section p{
+    font-size: 1.2em;  /* Aumenta o tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+}
+
+aside{
+    background-color: #f4f4f4;  /* Fundo claro para o aside */
+    padding: 20px;                  /* Espaçamento interno */
+    border-left: 5px solid #ccc; /* Borda à esquerda */
+    margin-top: 20px;          /* Espaçamento superior */
+
+}
+
+
+
+
