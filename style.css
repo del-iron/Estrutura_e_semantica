@@ -12,11 +12,15 @@ body h2{
 
 /* Estilizando o cabeçalho */
 header{
-    background: linear-gradient(to right,  #68e420, #41b6b6);  /* Cor de fundo escura */
-    color: aliceblue;                 /*Cor do Texto*/
-    padding: 20px;                      /*Espaçamento Interno*/
-    text-align: center;                 /* Alinha o texto no centro */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: 
+        url("imagens/LOGOS-SITE-DA-ESP-CABECALHO.png"),     /* Imagem da logo */
+        linear-gradient(to right, #68e420, #41b6b6);    /* Gradiente */
+    background-repeat: no-repeat;                           /* Impede que a imagem ou gradiente repita */
+    background-position: center ;                        /* Centraliza a imagem no topo */
+    background-size: auto, cover;                           /* Ajusta o tamanho da imagem e do gradiente */
+    color: aliceblue;                                     /* Cor do texto */
+    padding: 100px;                                          /* Espaçamento interno */
+    
 }
 header h1{
     font-size: 2.5em;    /* Tamanho maior para o título */
