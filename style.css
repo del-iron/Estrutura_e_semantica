@@ -76,7 +76,10 @@ aside{
 
 /*Estilizando o rodape da pagina*/
 footer{
-    font-size: 0.5em;
+    background: linear-gradient(to right, #5beb08c2, #41b6b6);
+    color: white;
+    padding: 20px;
+    font-size: 0.9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
